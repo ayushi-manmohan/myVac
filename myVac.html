@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/73dc61bd9b.js" crossorigin="anonymous"></script>
+    <title>MyVac1</title>
+    <style type="text/css">
+      .jumbotron{
+          background-image: url(vac2.jpg);
+          background-size: cover;
+			height: 100%;
+			text-align: center;
+			  padding-top: 10rem;
+			  padding-bottom: 10rem;
+			}
+      .navbar-brand{
+      
+      font-weight: bold;
+      font-size: 25px;
+    }
+      
+      .lead{
+       /* color:#fff;*/
+        font-weight: inherit;
+      }
+      .display-4{
+       /* color:#fff;*/
+        font-weight:inherit;
+      }
+      #info{
+      
+        font-weight: inherit;
+      }
+      #SecondRow{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 80%;
+
+      }
+      #footer{
+        background-color: aqua;
+        padding-top: 50px;
+        margin-top: 50px;
+        text-align: center;
+        padding-bottom: 50px;
+      }
+      #appStoreIcon{
+        width:200px;
+      }
+      body{
+        position: relative;
+      }
+
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="150">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MyVac</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feature">Features</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pricing
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Download the app</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="email" placeholder="Email">
+            <input class="form-control me-2" type="password" placeholder="Password">
+            <button class="btn btn-success" type="login">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+        
+        <div class="jumbotron" id="jumbotron">
+          <h1 class="display-4">Hola Peeps!</h1>
+          <p class="lead">It feels good to be lost in the right direction</p>
+          <hr class="my-4">
+          <p id="info">Travel brings power and love back into your life.....So plan your vacations with us!!!</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+
+    <div class="container">
+      <div class="row" id="SecondRow">
+        <h1>Make us your travel partner</h1>
+        <p class="lead">It feels good to be lost in the right direction</p>
+      </div>
+    </div>
+   
+    <div class="container" id="feature">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="edvin-johansson-rlwE8f8anOc-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-hotel"></i> Afordable and Luxurious Hotels</h5>
+              <p class="card-text">We will help you find the best Afordable hotels within your budget with all the facilities available.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="pradeep-ghildiyal-jr3ZPsaQwQo-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-umbrella-beach"></i> Serene Scenery</h5>
+              <p class="card-text">You will be lost in your beautiful surroundings.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="jason-sung-3scL6tN3chY-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-utensils"></i> Luscious Food</h5>
+              <p class="card-text">Experience the best of the delicacies.</p>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+
+      <div id="footer">
+        <div class="row">
+          <h2>Download the app!</h2>
+          <p class="lead">Really,why should i download the app?</p>
+          <p><a href=""><img id="appStoreIcon" src="app store.jpeg"></a></p>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  </body>
+</html>
